@@ -7,3 +7,16 @@ for x in 1:size(animals, 1)
                 println(animals[x, y])
         end
 end
+
+y = 0
+
+for x in 0:3
+        if x % 2 == 0
+                y = x + 2
+                println(y)
+        end
+end
+
+for count in 1:5
+        num1 = rand(1:10)
+end
