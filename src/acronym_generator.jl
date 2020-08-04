@@ -11,3 +11,15 @@ for word in wordslist
 end
 
 println(acronym)
+
+sentinel = "XXX"
+acronym = ""
+while true
+    println("Enter a word or 'XXX' to finish")
+    word = readline()
+    if word != sentinel
+        acronym = acronym * word[1]
+    else
+        break
+    end
+end
