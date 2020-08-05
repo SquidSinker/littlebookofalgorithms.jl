@@ -1,7 +1,8 @@
 function shopping()
-    items = String[]
+    items = []
     while true
-        println("Enter an item or 'End' to finish the list.")
+        println("Enter an item or 'End' to finish the
+        list.")
         item = titlecase(readline())
         if item == "End"
             break
@@ -13,3 +14,5 @@ function shopping()
     write(f, string(items))
     close(f)
 end
+
+shopping()

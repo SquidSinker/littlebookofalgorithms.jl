@@ -15,5 +15,4 @@ function main()
     println("The binary value $(binary_in) in denary is $(denary)")
 end
 
-# TODO add only run if called from repl
 main()

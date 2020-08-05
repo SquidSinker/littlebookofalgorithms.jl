@@ -14,6 +14,7 @@ function login()
                 println("Logged in")
             else
                 println("Incorrect password")
+                login()
             end
         end
     end
