@@ -6,7 +6,6 @@ function login()
     println("What is your password?")
     password_in = readline()
     users = CSV.File("users.txt")
-
     found = false
     for user in users
         if username_in == user.username
@@ -18,7 +17,6 @@ function login()
             end
         end
     end
-
     if found == false
         println("Invalid username")
         login()
