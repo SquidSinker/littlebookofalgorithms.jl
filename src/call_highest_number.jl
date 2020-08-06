@@ -15,4 +15,4 @@ num2 = parse(Int, readline())
 println("Enter 3rd number:")
 num3 = parse(Int, readline())
 
-println("The higher number was " * highernum(num1, num2, num3))
+println("The higher number was " * highest)

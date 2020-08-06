@@ -7,9 +7,17 @@ function options(num)
         return "Dance"
     elseif num == 4
         return "PE"
+    else
+        return "Error"
     end
 end
 
+println("""
+1 Computer Science
+2 Music
+3 Dance
+4 PE
+""")
 print("Enter option number: ")
 num = parse(Int, readline())
-println("You chose " options(num))
+println("You chose " * options(num))

@@ -7,3 +7,7 @@ function mystery_number(num)
         println(num)
     end
 end
+
+println("Enter a number:")
+num_in = parse(Int, readline())
+mystery_number(num_in)

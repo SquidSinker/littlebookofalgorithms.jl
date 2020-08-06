@@ -7,5 +7,4 @@ num2_in = parse(Int, readline())
 
 total = add(num1_in, num2_in)
 
-println("The sum of the two numbers is
-" * total)
+println("The sum of the two numbers is $(total)")

@@ -7,7 +7,7 @@ function is_odd(num)
 end
 
 while true
-    println("Enter a number")
+    println("Enter a number or STOP to finish")
     number = parse(Int, readline())
 
     if number != "STOP"

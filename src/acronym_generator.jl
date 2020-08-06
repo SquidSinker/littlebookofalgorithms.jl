@@ -1,6 +1,6 @@
 acronym = ""
 
-println("Enter words to be truned into an acronym")
+println("Enter words to be turned into an acronym")
 words = readline()
 
 wordslist = split(words)
@@ -23,3 +23,5 @@ while true
         break
     end
 end
+
+println(acronym)
