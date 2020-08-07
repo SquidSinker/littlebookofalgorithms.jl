@@ -6,5 +6,11 @@ function counting_vowels(sentence)
             vowels[letter] += 1
         end
     end
-    return vowels
+    for vowel in vowels
+        println(vowel)
+    end
 end
+
+sentence = "Learning programming is similar to learning a musical instrument. Both involve practise and making lots of mistakes. Both also require perseverence to develop fluency. Keep going!"
+
+counting_vowels(sentence)

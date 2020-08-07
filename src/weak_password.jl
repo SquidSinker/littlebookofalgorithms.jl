@@ -7,17 +7,24 @@ function weak_password(password)
         end
     end
     is_num = false
+    uppercase = false
+    lowercase = false
     for char in password
-        if isnumeric(char) == true
+        if isnumeric(char)
             is_num = true
+        elseif isuppercase(char)
+            uppercase = true
+        elseif islowercase(char)
+            lowercase = true
         end
     end
     if is_num = false
         println("WEAK: No numerics")
-        return Nothing
-    end
-    if length(password) < 8
+    elseif length(password) < 8
         println("WEAK: Too short")
-        return Nothing
+    elseif uppercase == false
+        println("WEAK: No uppercase letters")
+    elseif lowercase == false
+        println("WEAK: No lowercase letters")
     end
 end
