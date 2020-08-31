@@ -12,6 +12,7 @@ while true
 
     if number != "STOP"
         odd = is_odd(number)
+        println(odd)
     else
         break
     end
