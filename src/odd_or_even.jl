@@ -8,9 +8,10 @@ end
 
 while true
     println("Enter a number or STOP to finish")
-    number = parse(Int, readline())
+    number = readline()
 
     if number != "STOP"
+        number = parse(Int, number)
         odd = is_odd(number)
         println(odd)
     else

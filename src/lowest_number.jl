@@ -9,7 +9,7 @@ else
     lowest = num2
 end
 
-println("The lowest number is " * lowest)
+println("The lowest number is ", lowest)
 
 function lower_num(num1, num2)
     if num1 <= num2

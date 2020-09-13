@@ -1,9 +1,9 @@
 using Plots, Statistics
 
-cs_scores = ["Karman" 45 60 72;
-             "Daniel" 55 65 72;
-             "Parker" 71 78 78;
-             "Jessica" 68 79 80;
+cs_scores = ["Karman" 45 60 72
+             "Daniel" 55 65 72
+             "Parker" 71 78 78
+             "Jessica" 68 79 80
              "Edie" 98 85 91]
 
 names_in = cs_scores[:, 1]

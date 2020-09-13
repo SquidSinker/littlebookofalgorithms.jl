@@ -1,12 +1,13 @@
-animals = ["Charlie"  "Dog"  8;
-           "Dolly"  "Sheep"  3;
-           "Wanda"  "Goldfish"  4]
+animals = [["Charlie", "Dog", 8],
+           ["Dolly", "Sheep", 3],
+           ["Wanda", "Goldfish", 4]]
 
 for x in 1:size(animals, 1)
-        for y in 1:3
-                println(animals[x, y])
-        end
+    for y in 1:3
+        println(animals[x][y])
+    end
 end
+
 
 for x in 0:3
         if x % 2 == 0
